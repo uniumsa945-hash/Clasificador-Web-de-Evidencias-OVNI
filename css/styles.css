@@ -6,8 +6,12 @@
 
 body{
     font-family:Arial, sans-serif;
-    background:linear-gradient(135deg,#020024,#090979,#000000);
-    color:white;
+    background-image:url("img/finally-got-the-lighting-right-for-my-cornfield-scene-at-v0-zdd73pojkwbf1.webp");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    color:rgb(255, 255, 255);
 }
 
 header{
