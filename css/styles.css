@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background-image:url("./finally-got-the-lighting-right-for-my-cornfield-scene-at-v0-zdd73pojkwbf1.webp");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    color:rgb(255, 255, 255);
+}
+
+header{
+    text-align:center;
+    padding:30px;
+    background:rgba(0,0,0,.6);
+}
+
+header h1{
+    color:#00ffff;
+    text-shadow:0 0 10px cyan;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:15px;
+    background:#111;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    background:#00bcd4;
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    background:#00ffff;
+    color:black;
+}
+
+main{
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
+.tarjeta{
+    background:rgba(255,255,255,.08);
+    padding:20px;
+    border-radius:15px;
+    margin-bottom:20px;
+}
+
+h2{
+    color:#00ffff;
+    margin-bottom:15px;
+}
+
+.caso{
+    margin-bottom:25px;
+}
+
+.caso img{
+    width:100%;
+    max-width:500px;
+    display:block;
+    margin:10px auto;
+    border-radius:10px;
+}
+
+.galeria{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+}
+
+.galeria img{
+    width:100%;
+    border-radius:10px;
+}
+
+label{
+    display:block;
+    margin-top:10px;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border-radius:8px;
+    border:none;
+}
+
+textarea{
+    min-height:100px;
+}
+
+button{
+    margin-top:15px;
+    padding:12px 20px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+button:first-of-type{
+    background:#00ffff;
+}
+
+button:last-of-type{
+    background:#ff4444;
+    color:white;
+}
+
+#resultado{
+    text-align:center;
+    padding:20px;
+    border-radius:10px;
+    font-size:22px;
+    font-weight:bold;
+}
+
+.debil{
+    background:red;
+}
+
+.moderada{
+    background:orange;
+    color:black;
+}
+
+.fuerte{
+    background:green;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#111;
+}
+
+@media(max-width:768px){
+    nav{
+        flex-direction:column;
+        align-items:center;
+    }
+}
